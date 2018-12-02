@@ -506,10 +506,14 @@
     "gulp-sass": "^4.0.2",
     "gulp-webserver": "^0.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "gulp-babel": "^8.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"gulp dev"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",

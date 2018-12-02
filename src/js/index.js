@@ -2,7 +2,7 @@
  * @Author: 王鑫磊 
  * @Date: 2018-12-01 11:15:08 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-12-02 19:04:46
+ * @Last Modified time: 2018-12-02 19:58:12
  */
 
 
@@ -16,8 +16,6 @@ $.ajax({
 })
 
 function xuanran(data){
-
-    console.log(data)
 
     for(var i in data){
         var html = ``;

@@ -167,3 +167,99 @@ textarea {
 }*/
 html {
   font-size: 37.5px; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  flex-direction: column;
+  font-size: 0.18667rem; }
+  .box header {
+    width: 100%;
+    height: 0.53333rem;
+    background: #06c1b0;
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+    .box header > span {
+      font-size: 0.21333rem;
+      color: #fff;
+      line-height: 0.53333rem; }
+    .box header > .forms {
+      width: 2.13333rem;
+      background: #00a698;
+      height: 0.4rem;
+      margin-top: 0.06667rem; }
+      .box header > .forms i {
+        font-size: 0.16rem;
+        margin-left: 0.08rem;
+        color: #fff;
+        margin-top: 0.10667rem; }
+      .box header > .forms input {
+        width: 1.6rem;
+        height: 0.21333rem;
+        margin-top: 0.10667rem; }
+        .box header > .forms input::placeholder {
+          color: #fff;
+          font-size: 0.18667rem; }
+    .box header .wode {
+      width: 0.53333rem;
+      height: 0.4rem;
+      color: #fff;
+      margin-top: 0.06667rem; }
+      .box header .wode dt {
+        width: 100%;
+        height: 0.26667rem; }
+        .box header .wode dt i {
+          font-size: 0.26667rem;
+          margin-left: 0.13333rem; }
+      .box header .wode dd {
+        width: 100%;
+        height: 0.13333rem;
+        font-size: 0.13333rem; }
+        .box header .wode dd span {
+          margin-left: 0.13333rem; }
+  .box .hehe {
+    width: 100%;
+    height: 1.06667rem;
+    background: url("//ms0.meituan.net/touch/img/download_banner.png") no-repeat;
+    background-size: 100%;
+    border-bottom: 1px solid #ccc; }
+  .box nav {
+    width: 100%;
+    height: 1.86667rem;
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-flex;
+    /* NEW - Chrome */ }
+    .box nav .swiper-container {
+      width: 100%;
+      height: 100%; }
+    .box nav .swiper-slide {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      display: -webkit-flex;
+      /* NEW - Chrome */
+      flex-wrap: wrap; }
+      .box nav .swiper-slide dl {
+        width: 20%;
+        height: 50%; }
+        .box nav .swiper-slide dl dt {
+          width: 100%;
+          height: 75%; }
+          .box nav .swiper-slide dl dt img {
+            width: 70%;
+            height: auto;
+            margin-left: 0.10667rem;
+            margin-top: 0.10667rem; }
+        .box nav .swiper-slide dl dd {
+          text-align: center;
+          font-size: 0.13333rem; }

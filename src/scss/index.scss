@@ -1,3 +1,135 @@
 @import "_minix.scss";
 @import "common.scss";
 
+.box{
+    width: 100%;
+    height: 100%;
+    @include box_flex;
+    flex-direction: column;
+    font-size:pxTorem(7px);
+
+    header{
+        width: 100%;
+        height: pxTorem(20px);
+        background:#06c1b0;
+        
+        @include box_flex;
+        @include justify(space-around);
+
+        &>span{
+            font-size:pxTorem(8px);
+            color: #fff;
+            line-height: pxTorem(20px);
+        }
+        
+        &>.forms{
+            width: pxTorem(80px);
+            background:#00a698;
+            height: pxTorem(15px);
+            margin-top: pxTorem(2.5px);
+
+            i{
+                font-size: pxTorem(6px);
+                margin-left: pxTorem(3px);
+                color:#fff;
+                margin-top: pxTorem(4px);
+            }
+
+            input{
+                width: pxTorem(60px); 
+                height:pxTorem(8px);              
+                margin-top: pxTorem(4px);
+
+                &::placeholder{
+                    color:#fff;
+                    font-size:pxTorem(7px);
+                }
+
+            }
+
+
+        }
+
+        .wode{
+            width: pxTorem(20px);
+            height: pxTorem(15px);
+            color: #fff;
+            margin-top: pxTorem(2.5px);
+
+            dt{
+                width: 100%;
+                height:pxTorem(10px);
+                
+
+                i{
+                    font-size:pxTorem(10px);
+                    margin-left: pxTorem(5px);
+                }
+            }
+
+            dd{
+                width: 100%;
+                height:pxTorem(5px);
+                font-size:pxTorem(5px);
+
+                span{
+                    margin-left: pxTorem(5px);
+                }
+            }
+            
+        }
+    }
+
+    .hehe{
+        width: 100%;
+        height:pxTorem(40px);
+        background: url('//ms0.meituan.net/touch/img/download_banner.png') no-repeat;
+        background-size: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    nav{
+        width: 100%;
+        height: pxTorem(70px);
+        @include box_flex;
+        
+
+        .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+            @include box_flex;
+            flex-wrap:wrap;
+
+            dl{
+            width: 20%;
+            height: 50%;
+
+            dt{
+                width: 100%;
+                height: 75%;
+
+                img{
+                    width: 70%;
+                    height:auto;
+                    margin-left: pxTorem(4px);
+                    margin-top: pxTorem(4px);
+                }
+            }
+
+            dd{
+                text-align: center;
+                font-size:pxTorem(5px)
+            }
+        }
+        }
+
+        
+    }
+
+
+}

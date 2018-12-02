@@ -131,5 +131,18 @@
         
     }
 
+    .wrap{
+        flex:1;
+        width: 100%;
+        background:skyblue;
+        overflow:hidden;
+
+        li{
+            width: 100%;
+            height: pxTorem(30px);
+            border-bottom: 1px solid #000;
+        }
+    }
+
 
 }
